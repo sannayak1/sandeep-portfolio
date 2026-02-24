@@ -122,7 +122,8 @@ export default function Home() {
             </h3>
             <p className="mt-2 text-xs text-slate-400">
               Reflections on building, scaling, and modernizing systems across
-              multiple generations of technology stacks.
+              multiple generations of technology stacks, from monoliths to
+              event-driven microservices.
             </p>
           </article>
 
@@ -132,7 +133,8 @@ export default function Home() {
             </h3>
             <p className="mt-2 text-xs text-slate-400">
               Patterns for resilience, failover, and DR that align with
-              enterprise RTO/RPO expectations.
+              enterprise RTO/RPO expectations, including regional redundancy and
+              platform-native services.
             </p>
           </article>
 
@@ -142,7 +144,8 @@ export default function Home() {
             </h3>
             <p className="mt-2 text-xs text-slate-400">
               Practical lessons from designing event-driven, domain-aligned
-              microservices at scale.
+              microservices at scale, including governance, versioning, and
+              observability.
             </p>
           </article>
 
@@ -152,7 +155,28 @@ export default function Home() {
             </h3>
             <p className="mt-2 text-xs text-slate-400">
               Using AI to analyze, document, and accelerate transformation of
-              complex legacy estates.
+              complex legacy estates, from code understanding to modernization
+              playbooks.
+            </p>
+          </article>
+
+          <article className="group rounded-2xl border border-slate-800 bg-slate-900/70 p-4 transition hover:border-sky-500/60 hover:bg-slate-900">
+            <h3 className="text-sm font-semibold text-slate-50 group-hover:text-sky-200">
+              Blue-Green Deployment Strategies in Event-Driven Architectures
+            </h3>
+            <p className="mt-2 text-xs text-slate-400">
+              Approaches for safely rolling out changes across microservices,
+              message schemas, and event streams without disrupting consumers.
+            </p>
+          </article>
+
+          <article className="group rounded-2xl border border-slate-800 bg-slate-900/70 p-4 transition hover:border-sky-500/60 hover:bg-slate-900">
+            <h3 className="text-sm font-semibold text-slate-50 group-hover:text-sky-200">
+              Disaster Recovery Testing in Large-Scale Enterprise Systems
+            </h3>
+            <p className="mt-2 text-xs text-slate-400">
+              How to design, execute, and learn from DR tests so that documented
+              RTO/RPO targets are proven—not just theoretical.
             </p>
           </article>
         </div>
