@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <div className="space-y-8 rounded-3xl border border-white/10 bg-slate-950/70 p-6 shadow-xl shadow-slate-950/40 sm:p-10">
+    <div className="pro-panel space-y-8 rounded-3xl border border-white/10 bg-slate-950/70 p-6 shadow-xl shadow-slate-950/40 sm:p-10">
       <header className="space-y-2">
         <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-400">
           👨‍💻 About
@@ -25,6 +25,7 @@ export default function AboutPage() {
           <p>My work focuses on:</p>
           <ul className="list-disc space-y-2 pl-5 text-sm text-slate-200 sm:text-base">
             <li>Cloud-native transformation using Microsoft Azure</li>
+            <li>Container platform and OpenShift-based modernization strategies</li>
             <li>Event-driven and domain-driven microservices architectures</li>
             <li>High-availability and disaster recovery engineering</li>
             <li>DevSecOps-driven CI/CD implementation</li>
@@ -60,6 +61,7 @@ export default function AboutPage() {
               </h2>
               <ul className="mt-2 list-disc space-y-1 pl-4 text-xs text-slate-300 sm:text-sm">
                 <li>Azure-native architectures leveraging AKS, PaaS, and serverless.</li>
+                <li>Hybrid and multi-cloud deployments on Kubernetes and OpenShift.</li>
                 <li>
                   Event-driven systems using messaging, streaming, and CQRS patterns.
                 </li>

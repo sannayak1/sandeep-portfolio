@@ -24,7 +24,7 @@ export default function ProjectsPage() {
             Azure · AKS · CI/CD · DR Strategy
           </p>
           <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-slate-200">
-            <li>Led migration of 20+ enterprise applications to Azure.</li>
+            <li>Led migration of 100+ enterprise applications to Azure and OpenShift.</li>
             <li>Designed AKS-based container orchestration platform.</li>
             <li>Implemented secure CI/CD pipelines.</li>
             <li>
@@ -41,7 +41,7 @@ export default function ProjectsPage() {
             Spring Boot · Kafka · Kubernetes · Observability
           </p>
           <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-slate-200">
-            <li>Designed and implemented 45 Spring Boot microservices.</li>
+            <li>Designed and implemented 70+ Spring Boot microservices.</li>
             <li>Built Kafka-based event streaming architecture.</li>
             <li>Implemented Kubernetes-based orchestration.</li>
             <li>

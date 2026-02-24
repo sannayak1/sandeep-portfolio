@@ -36,3 +36,67 @@ a {
   text-decoration: none;
 }
 
+/* Pro-look enhancements */
+
+.nav-link-pro {
+  position: relative;
+  padding-bottom: 0.2rem;
+}
+
+.nav-link-pro::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(to right, #38bdf8, #a5f3fc, #22c55e);
+  border-radius: 999px;
+  transition: width 200ms ease-out, opacity 200ms ease-out;
+  opacity: 0;
+}
+
+.nav-link-pro:hover::after,
+.nav-link-pro:focus-visible::after {
+  width: 100%;
+  opacity: 1;
+}
+
+.pro-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.pro-panel::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.5), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(45, 212, 191, 0.35), transparent 55%);
+  opacity: 0;
+  transition: opacity 220ms ease-out;
+  pointer-events: none;
+}
+
+.pro-panel:hover::before {
+  opacity: 1;
+}
+
+.blog-details summary {
+  list-style: none;
+}
+
+.blog-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary-chevron {
+  transition: transform 200ms ease-out, color 200ms ease-out;
+}
+
+.blog-details[open] .summary-chevron {
+  transform: rotate(90deg);
+  color: #38bdf8;
+}
+

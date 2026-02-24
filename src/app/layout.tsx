@@ -50,19 +50,19 @@ export default function RootLayout({
               <nav className="flex items-center gap-6 text-sm font-medium text-slate-300">
                 <Link
                   href="/"
-                  className="transition hover:text-slate-50 hover:underline hover:underline-offset-4"
+                  className="nav-link-pro transition hover:text-slate-50"
                 >
                   Home
                 </Link>
                 <Link
                   href="/about"
-                  className="transition hover:text-slate-50 hover:underline hover:underline-offset-4"
+                  className="nav-link-pro transition hover:text-slate-50"
                 >
                   About
                 </Link>
                 <Link
                   href="/projects"
-                  className="transition hover:text-slate-50 hover:underline hover:underline-offset-4"
+                  className="nav-link-pro transition hover:text-slate-50"
                 >
                   Projects
                 </Link>
